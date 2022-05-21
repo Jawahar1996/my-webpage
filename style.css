@@ -1,0 +1,177 @@
+body
+{
+  margin: 0;
+  font-family: "Merriweather Sans", serif;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #F1EEE9;
+}
+
+
+/* --------------- Top Container ---------------- */
+.top-container
+{
+  background-color: #B3E8E5;
+  margin: 0;
+  width: 100%;
+  padding-top: 100px;
+}
+h1
+{
+  margin: 0;
+  text-align: center;
+  font-family: "Secular one",sans-serif;
+  font-size: 4.5rem;
+  color: #005555;
+}
+h2
+{
+  text-align: center;
+  margin: 0;
+  font-family: "Engagement",sans-serif;
+  font-size: 3.5rem;
+  color: #417D7A;
+  font-weight: normal;
+}
+h3
+{
+  text-align: center;
+  margin: 0;
+  font-family: "Rancho",sans-serif;
+  font-size: 2.5rem;
+  color: #11999E;
+}
+.cloud1
+{
+  height:200px;
+  width: 300px;
+  position: absolute;
+  top: 150px;
+  left: 65%;
+}
+.cloud2
+{
+  height:150px;
+  width: 250px;
+  position: absolute;
+  top: 300px;
+  left: 15%;
+}
+/* --------------- Middle Container ---------------- */
+p
+{
+  line-height: 2;
+}
+.middle-container
+{
+   width: 100%;
+   padding-top: 50px;
+}
+hr
+{
+  margin-left: 40%;
+  margin-right: 40%;
+  border: 10px;
+  border-top: 0;
+  border-style: dotted;
+  color: grey;
+}
+.profile-image
+{
+  height: 150px;
+  width: auto;
+}
+.intro
+{
+  width: 50%;
+  margin: auto;
+}
+.cooking
+{
+  width: 35%;
+}
+.computer-skills
+{
+  width: 30%;
+}
+.skill-row
+{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  font-size: 1.2rem;
+}
+.cooking
+{
+  float: left;
+  padding-right: 30px;
+}
+.computer-skills
+{
+  float: right;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.cooking-des
+{
+  margin: 0;
+  text-align: left;
+}
+.computer-des
+{
+  margin: 0;
+  text-align: left;
+}
+/* --------------- Second middle Container ---------------- */
+.btn {
+  background: #229ef0;
+  background-image: -webkit-linear-gradient(top, #229ef0, #66f7c7);
+  background-image: -moz-linear-gradient(top, #229ef0, #66f7c7);
+  background-image: -ms-linear-gradient(top, #229ef0, #66f7c7);
+  background-image: -o-linear-gradient(top, #229ef0, #66f7c7);
+  background-image: linear-gradient(to bottom, #229ef0, #66f7c7);
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+  border-radius: 16px;
+  font-family: "Secular one",sans-serif;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #64c416;
+  background-image: -webkit-linear-gradient(top, #64c416, #8fc0e0);
+  background-image: -moz-linear-gradient(top, #64c416, #8fc0e0);
+  background-image: -ms-linear-gradient(top, #64c416, #8fc0e0);
+  background-image: -o-linear-gradient(top, #64c416, #8fc0e0);
+  background-image: linear-gradient(to bottom, #64c416, #8fc0e0);
+  text-decoration: none;
+}
+/* --------------- Bottom Container ---------------- */
+.bottom-container
+{
+  background-color: #79B4B7;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+a
+{
+  margin: 20px 10px;
+  font-family: "Acme", serif;
+  text-decoration: none;
+}
+a:link
+{
+  color: blue;
+}
+a:visited
+{
+  color: Purple;
+}
+a:hover
+{
+  color: Red;
+}
